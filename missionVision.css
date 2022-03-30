@@ -1,0 +1,46 @@
+section{
+    width: 100vw;
+    height: 60vh;
+}
+.mission,
+.vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+h2,
+p{
+    text-align: center;
+}
+h2{
+    color: azure;
+    font-size: 2rem;
+}
+p{
+    color: bisque;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.mission{
+    width: 50vw;
+    background-image: linear-gradient(#00000070, #00000070),
+    url(https://oneacrefund.org/media/images/Fatima_and_Raphael.2e16d0ba.f.2e16d0ba.fill-640x320-c100.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.vision{
+    width: 50vw;
+    background-image: linear-gradient(#00000070, #00000070),
+    url(https://assets.weforum.org/community/image/K8IsUZHGGK2ewqWDTwvjx9GracZgnVRFjqc2R5_boXE.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media(max-width: 625px){
+    .mission,
+    .vision{
+        width: 100vw;
+        height: 100%;
+    }
+}

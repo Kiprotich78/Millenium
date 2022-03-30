@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(48, 51, 48, 0.7), rgba(150, 81, 206, 0.137)),
+    url(https://thumbs.dreamstime.com/b/two-black-african-american-businessmen-friends-suits-talking-standing-street-outdoor-business-meeting-couple-234191130.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://cdn.adh.reperio.news/image-0/0af481c4-a3ae-4f42-addb-56f6a24ac795/index.jpeg?f=webp&w=75&r=cover);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 88vh;
+  border-radius: 15px;
+}
+input,
+button,
+label,
+a {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 40px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 8px;
+  background: none;
+  color: yellow;
+  border: none;
+  outline: 2px solid rgba(255, 166, 0, 0.514);
+}
+input:hover {
+  transition: all .5s;
+  outline: 2px solid green;
+  transform: scale(1.1);
+}
+label {
+  margin: 10px 5px;
+  padding: 0px;
+  outline: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+label::after {
+  content: " *";
+  color: red;
+}
+.a {
+  display: flex;
+}
+P {
+  margin-left: 30px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 60%;
+  font-size: 28px;
+  transition: transform .5s;
+}
+button:hover {
+  transform: scale(1.1);
+  background: black;
+  color: red;
+  outline: 2px solid blue;
+  cursor: pointer;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: greenyellow;
+}
+a {
+  padding: 5px;
+  width: 125px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  background: rgba(18, 18, 131, 0.89);
+  color: rgba(255, 0, 0, 0.603);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+a:hover {
+  transform: scale(1.1);
+  background:rgba(255, 0, 0, 0.603);
+  color: yellow;
+}
+p {
+  text-align: center;
+}
+@media (max-width: 589px) {
+  button {
+    font-size: 18px;
+    width: 70%;
+  }
+  .form1 {
+    width: 380px;
+  }
+}
+@media (max-width: 380px) {
+  .form1 {
+    width: 95%;
+  }
+  input {
+    width: 85%;
+  }
+}
